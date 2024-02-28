@@ -299,7 +299,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1797291619}
-        m_TargetAssemblyTypeName: DefaultNamespace.PythonRunner, Assembly-CSharp
+        m_TargetAssemblyTypeName: PythonRunnerTest, Assembly-CSharp
         m_MethodName: RunPython
         m_Mode: 5
         m_Arguments:
@@ -645,6 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae352310cdb44d92b092308b5eac1175, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  output: {fileID: 0}
 --- !u!4 &1797291620
 Transform:
   m_ObjectHideFlags: 0
